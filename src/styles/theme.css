@@ -1,0 +1,193 @@
+/* src/styles/theme.css */
+:root {
+
+    --lucid-font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --lucid-font-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+
+    /* Font sizes */
+    --lucid-font-size-xs: 0.75rem; /* 12px */
+    --lucid-font-size-sm: 0.875rem; /* 14px */
+    --lucid-font-size-md: 1rem; /* 16px */
+    --lucid-font-size-lg: 1.125rem; /* 18px */
+    --lucid-font-size-xl: 1.25rem; /* 20px */
+  
+    /** Font weights */
+    --lucid-font-weight-light: 300;
+    --lucid-font-weight-regular: 400;
+    --lucid-font-weight-medium: 500;
+    --lucid-font-weight-semibold: 600;
+    --lucid-font-weight-bold: 700;
+    --lucid-font-weight-extrabold: 800;
+    --lucid-font-weight-black: 900;
+    
+    /** Line heights */
+    --lucid-line-height-none: 1;
+    --lucid-line-height-tight: 1.25;
+    --lucid-line-height-snug: 1.375;
+    --lucid-line-height-normal: 1.5;
+    --lucid-line-height-relaxed: 1.625;
+
+    /** Letter spacing */
+    --lucid-letter-spacing-tight: -0.025em;
+    --lucid-letter-spacing-normal: 0em;
+    --lucid-letter-spacing-wide: 0.025em;
+
+    /** Spacing */
+    --lucid-spacing-0: 0px; 
+    --lucid-spacing-px: 1px;
+    --lucid-spacing-0-5: 0.125rem; /* 2px */
+    --lucid-spacing-1: 0.25rem; /* 4px */
+    --lucid-spacing-1-5: 0.375rem; /* 6px */
+    --lucid-spacing-2: 0.5rem; /* 8px */
+    --lucid-spacing-2-5: 0.625rem; /* 10px */
+    --lucid-spacing-3: 0.75rem; /* 12px */
+    --lucid-spacing-4: 1rem; /* 16px */
+    --lucid-spacing-5: 1.25rem; /* 20px */
+    --lucid-spacing-6: 1.5rem; /* 24px */
+    --lucid-spacing-7: 1.75rem; /* 28px */
+    --lucid-spacing-8: 2rem; /* 32px */
+    --lucid-spacing-9: 2.25rem; /* 36px */
+    --lucid-spacing-10: 2.5rem; /* 40px */
+    --lucid-spacing-11: 2.75rem; /* 44px */
+    --lucid-spacing-12: 3rem; /* 48px */
+    --lucid-spacing-14: 3.5rem; /* 56px */
+    --lucid-spacing-16: 4rem; /* 64px */
+    --lucid-spacing-20: 5rem; /* 80px */
+   
+    /** Border radius */
+    --lucid-rounded-none: 0px; /* 0px */
+    --lucid-rounded-sm: 0.125rem; /* 2px */
+    --lucid-rounded-md: 0.25rem; /* 4px */
+    --lucid-rounded-lg: 0.375rem; /* 6px */
+    --lucid-rounded-xl: 0.5rem;  /* 8px */
+    --lucid-rounded-2xl: 0.75rem; /* 12px */
+    --lucid-rounded-3xl: 1rem;  /* 16px */
+    --lucid-rounded-full: 9999px; /* 9999px */
+  
+    /** Shadows */
+    --lucid-shadow-xs: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --lucid-shadow-sm: 0 4px 6px -2px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+    --lucid-shadow-md: 0 12px 16px -4px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --lucid-shadow-lg: 0 20px 24px -4px rgba(0, 0, 0, 0.1), 0 8px 8px -4px rgba(0, 0, 0, 0.04);
+    --lucid-shadow-xl: 0 24px 48px -12px rgba(0, 0, 0, 0.25);
+
+    /** Elevation */
+    --lucid-elevation-1: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --lucid-elevation-2: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --lucid-elevation-3: 0 4px 6px -2px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+    --lucid-elevation-4: 0 12px 16px -4px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --lucid-elevation-5: 0 20px 24px -4px rgba(0, 0, 0, 0.1), 0 8px 8px -4px rgba(0, 0, 0, 0.04);
+    --lucid-elevation-6: 0 24px 48px -12px rgba(0, 0, 0, 0.25);
+    --lucid-elevation-7: 0 32px 64px -12px rgba(0, 0, 0, 0.2);
+    
+    /* Neutral colors */
+    --lucid-color-black: 0, 0, 0;
+    --lucid-color-white: 255, 255, 255;
+
+    /* Gray colors */
+    --lucid-color-gray-50: 249, 250, 251;
+    --lucid-color-gray-100: 243, 244, 246;
+    --lucid-color-gray-200: 229, 231, 235;
+    --lucid-color-gray-300: 209, 213, 219;
+    --lucid-color-gray-400: 156, 163, 175;
+    --lucid-color-gray-500: 107, 114, 128;
+    --lucid-color-gray-600: 75, 85, 99;
+    --lucid-color-gray-700: 55, 65, 81;
+    --lucid-color-gray-800: 31, 41, 55;
+    --lucid-color-gray-900: 17, 24, 39;
+    --lucid-color-gray-950: 3, 7, 18;
+
+    /* Primary colors */
+    --lucid-color-primary-50: 239, 246, 255;
+    --lucid-color-primary-100: 219, 234, 254;
+    --lucid-color-primary-200: 191, 219, 254;
+    --lucid-color-primary-300: 147, 197, 253;
+    --lucid-color-primary-400: 96, 165, 250;
+    --lucid-color-primary-500: 59, 130, 246;
+    --lucid-color-primary-600: 37, 99, 235;
+    --lucid-color-primary-700: 29, 78, 216;
+    --lucid-color-primary-800: 30, 64, 175;
+    --lucid-color-primary-900: 30, 58, 138;
+    --lucid-color-primary-950: 23, 37, 84;
+
+    /* Success colors (green) */
+    --lucid-color-success-50: 240, 253, 244;
+    --lucid-color-success-100: 220, 252, 231;
+    --lucid-color-success-200: 187, 247, 208;
+    --lucid-color-success-300: 134, 239, 172;
+    --lucid-color-success-400: 74, 222, 128;
+    --lucid-color-success-500: 34, 197, 94;
+    --lucid-color-success-600: 22, 163, 74;
+    --lucid-color-success-700: 21, 128, 61;
+    --lucid-color-success-800: 22, 101, 52;
+    --lucid-color-success-900: 20, 83, 45;
+    --lucid-color-success-950: 5, 46, 22;
+
+    /* Info colors (blue) */
+    --lucid-color-info-50: 239, 246, 255;
+    --lucid-color-info-100: 219, 234, 254;
+    --lucid-color-info-200: 191, 219, 254;
+    --lucid-color-info-300: 147, 197, 253;
+    --lucid-color-info-400: 96, 165, 250;
+    --lucid-color-info-500: 59, 130, 246;
+    --lucid-color-info-600: 37, 99, 235;
+    --lucid-color-info-700: 29, 78, 216;
+    --lucid-color-info-800: 30, 64, 175;
+    --lucid-color-info-900: 30, 58, 138;
+    --lucid-color-info-950: 23, 37, 84;
+
+    /* Danger colors (red) */
+    --lucid-color-danger-50: 253 243 243;
+    --lucid-color-danger-100: 253 227 227;
+    --lucid-color-danger-200: 252 204 204;
+    --lucid-color-danger-300: 248 169 169;
+    --lucid-color-danger-400: 242 119 119;
+    --lucid-color-danger-500: 229 62 62;
+    --lucid-color-danger-600: 211 47 47;
+    --lucid-color-danger-700: 178 35 35;
+    --lucid-color-danger-800: 147 33 33;
+    --lucid-color-danger-900: 122 34 34;
+    --lucid-color-danger-950: 66 13 13;
+
+    /* Warning colors (orange) */
+    --lucid-color-warning-50: 254 248 238;
+    --lucid-color-warning-100: 252 239 216;
+    --lucid-color-warning-200: 249 218 175;
+    --lucid-color-warning-300: 245 191 124;
+    --lucid-color-warning-400: 240 154 71;
+    --lucid-color-warning-500: 237 137 54;
+    --lucid-color-warning-600: 221 101 25;
+    --lucid-color-warning-700: 183 77 23;
+    --lucid-color-warning-800: 146 61 26;
+    --lucid-color-warning-900: 118 52 24;
+    --lucid-color-warning-950: 63 24 11;
+
+    /** z-index */
+    --lucid-modal-z-index: 1000;
+    --lucid-alert-z-index: 1000;
+    --lucid-dropdown-z-index: 1000;
+
+
+    --durationUltraFast: 50ms;
+    --durationFaster: 100ms;
+    --durationFast: 150ms;
+    --durationNormal: 200ms;
+    --durationGentle: 250ms;
+    --durationSlow: 300ms;
+    --durationSlower: 400ms;
+    --durationUltraSlow: 500ms;
+    --curveAccelerateMax: cubic-bezier(1,0,1,1);
+    --curveAccelerateMid: cubic-bezier(0.7,0,1,0.5);
+    --curveAccelerateMin: cubic-bezier(0.8,0,1,1);
+    --curveDecelerateMax: cubic-bezier(0,0,0,1);
+    --curveDecelerateMid: cubic-bezier(0.1,0.9,0.2,1);
+    --curveDecelerateMin: cubic-bezier(0.33,0,0.1,1);
+    --curveEasyEaseMax: cubic-bezier(0.8,0,0.1,1);
+    --curveEasyEase: cubic-bezier(0.33,0,0.67,1);
+    --curveLinear: cubic-bezier(0,0,1,1);
+
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
